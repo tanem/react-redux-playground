@@ -17,6 +17,10 @@ The app is based on Redux's [counter example](https://github.com/rackt/redux/tre
 - _TODO_ Unit testing
 - _TODO_ CSS modules
 
+## Running
+
+Clone the repo, `npm install` the dependencies, then run `npm start`. You'll then be prompted to open a page in your browser.
+
 ## Links
 
 - [@dan_abramov](https://twitter.com/dan_abramov)
