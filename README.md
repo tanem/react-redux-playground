@@ -19,7 +19,10 @@ The app is based on Redux's [counter example](https://github.com/rackt/redux/tre
 
 ## Running
 
-Clone the repo, `npm install` the dependencies, then run `npm start`. You'll then be prompted to open a page in your browser.
+1. Clone the repo
+2. `npm install` the dependencies
+3. Run `npm start`
+4. Open `http://localhost:3000/` in your browser.
 
 ## Links
 
