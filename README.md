@@ -1,4 +1,4 @@
-# redux-playground
+# react-redux-playground
 
 _Work in progress_
 
