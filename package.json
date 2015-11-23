@@ -1,20 +1,18 @@
 {
-  "name": "redux-playground-counter-example",
+  "name": "react-redux-playground",
   "version": "1.0.0",
-  "description": "Redux playground counter example",
+  "description": "Messing about with React and Redux.",
   "scripts": {
     "lint": "eslint src test",
-    "start": "node server.js",
-    "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
-    "test:watch": "npm test -- --watch"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tanem/redux-playground.git"
+    "url": "https://github.com/tanem/react-redux-playground.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tanem/redux-playground/issues"
+    "url": "https://github.com/tanem/react-redux-playground/issues"
   },
   "devDependencies": {
     "babel-core": "^5.8.33",
