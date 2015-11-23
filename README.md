@@ -2,11 +2,11 @@
 
 Messing about with [React](https://github.com/facebook/react) and [Redux](https://github.com/rackt/redux), so I can answer a few questions I have after spending a few years building large SPAs with other libraries. There's a bunch of useful info out there, but hopefully there are a few bits and pieces others might find helpful here too :smile:
 
-## description
+## Description
 
 The core of the app is based on Redux's [counter example](https://github.com/rackt/redux/tree/master/examples/counter). I'm gradually trying to solve each of the following:
 
-- ES2015
+- ES2015 syntax
 - Hot reloading
 - Redux devtools
 - Unit testing
@@ -14,7 +14,7 @@ The core of the app is based on Redux's [counter example](https://github.com/rac
 - Auth flow
 - Async API calls
 
-## useful links
+## Links
 
 - [@dan_abramov](https://twitter.com/dan_abramov)
 - [React Docs](https://facebook.github.io/react/)
@@ -25,6 +25,6 @@ The core of the app is based on Redux's [counter example](https://github.com/rac
 - [SoundRedux](https://github.com/andrewngu/sound-redux)
 - [React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example)
 
-## license
+## License
 
 MIT
