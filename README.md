@@ -19,7 +19,7 @@ The app is based on Redux's [counter example](https://github.com/rackt/redux/tre
 - _TODO_ Unit testing
 - _TODO_ CSS modules
 
-For progress and further details regarding the _TODO_s, keep an eye on the [issues](https://github.com/tanem/react-redux-playground/issues).
+For progress and further details regarding the TODOs, keep an eye on the [issues](https://github.com/tanem/react-redux-playground/issues).
 
 ## Running
 
