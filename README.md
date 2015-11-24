@@ -53,6 +53,7 @@ $ npm run test:watch
 - [Awesome Redux](https://github.com/xgrommx/awesome-redux)
 - [SoundRedux](https://github.com/andrewngu/sound-redux)
 - [React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example)
+- [Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
 
 ## License
 
