@@ -1,5 +1,7 @@
 # react-redux-playground
 
+[![build status](https://img.shields.io/travis/tanem/react-redux-playground.svg?style=flat-square)](https://travis-ci.org/tanem/react-redux-playground)
+
 _Work in progress_
 
 Messing about with [React](https://github.com/facebook/react) and [Redux](https://github.com/rackt/redux), so I can answer a few questions I have after spending a few years building large SPAs with other libraries. There's a bunch of useful info out there, but hopefully there are a few bits and pieces others might find helpful here too.
