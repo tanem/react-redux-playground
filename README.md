@@ -1,6 +1,6 @@
 # react-redux-playground
 
-[![build status](https://img.shields.io/travis/tanem/react-redux-playground.svg?style=flat-square)](https://travis-ci.org/tanem/react-redux-playground)
+[![build status](https://img.shields.io/travis/tanem/react-redux-playground/master.svg?style=flat-square)](https://travis-ci.org/tanem/react-redux-playground)
 
 _Work in progress_
 
@@ -25,6 +25,20 @@ The app is based on Redux's [counter example](https://github.com/rackt/redux/tre
 2. `npm install` the dependencies
 3. Run `npm start`
 4. Open `http://localhost:3000/` in your browser.
+
+## Testing
+
+Single run:
+
+```
+$ npm test
+```
+
+Run and watch:
+
+```
+$ npm run test:watch
+```
 
 ## Links
 
