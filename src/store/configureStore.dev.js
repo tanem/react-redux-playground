@@ -1,15 +1,13 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import DevTools from '../containers/DevTools';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
-// import routes from '../routes';
-import thunk from 'redux-thunk'
+import thunk from 'redux-thunk';
 import createLogger from 'redux-logger';
 import rootReducer from '../reducers';
 import { syncReduxAndRouter } from 'redux-simple-router';
 
 const finalCreateStore = compose(
   applyMiddleware(thunk),
-  // reduxReactRouter({ routes, createHistory }),
   applyMiddleware(createLogger()),
   DevTools.instrument()
 )(createStore);

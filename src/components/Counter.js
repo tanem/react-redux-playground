@@ -21,7 +21,7 @@ export default class Counter extends Component {
         {' '}
         <button onClick={incrementAsync}>Increment async</button>
       </p>
-    )
+    );
   }
 }
 

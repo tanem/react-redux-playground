@@ -3,7 +3,6 @@ import { Provider } from 'react-redux';
 import routes from '../routes';
 import DevTools from './DevTools';
 
-// routes here!
 export default class Root extends Component {
   render() {
     const { store } = this.props;
