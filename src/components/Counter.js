@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react';
+import Button from './Button';
 
 export default class Counter extends Component {
   render() {
@@ -13,13 +14,13 @@ export default class Counter extends Component {
       <p>
         Clicked: {counter} times
         {' '}
-        <button onClick={increment}>+</button>
+        <Button clickHandler={increment}>+</Button>
         {' '}
-        <button onClick={decrement}>-</button>
+        <Button clickHandler={decrement}>-</Button>
         {' '}
-        <button onClick={incrementIfOdd}>Increment if odd</button>
+        <Button clickHandler={incrementIfOdd}>Increment if odd</Button>
         {' '}
-        <button onClick={incrementAsync}>Increment async</button>
+        <Button clickHandler={incrementAsync}>Increment async</Button>
       </p>
     );
   }
