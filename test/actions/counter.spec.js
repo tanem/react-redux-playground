@@ -5,45 +5,74 @@ import * as types from '../../src/constants/ActionTypes';
 
 describe('counter actions', () => {
 
-  it('increment should create increment action', () => {
-    expect(actions.increment()).toEqual({ type: types.INCREMENT_COUNTER });
+  describe('increment', () => {
+
+    it('should create increment action', () => {
+      expect(actions.increment()).toEqual({ type: types.INCREMENT_COUNTER });
+    });
+
   });
 
-  it('decrement should create decrement action', () => {
-    expect(actions.decrement()).toEqual({ type: types.DECREMENT_COUNTER });
+  describe('decrement', () => {
+
+    it('should create decrement action', () => {
+      expect(actions.decrement()).toEqual({ type: types.DECREMENT_COUNTER });
+    });
+
   });
 
-  it('incrementIfOdd should create increment action if counter is odd', () => {
-    const dispatch = expect.createSpy();
-    const getState = () => ({ counter: 1 });
+  describe('incrementIfOdd', () => {
 
-    actions.incrementIfOdd()(dispatch, getState);
+    it('should create increment action if counter is odd', () => {
+      const dispatch = expect.createSpy();
+      const getState = () => ({ counter: 1 });
 
-    expect(dispatch).toHaveBeenCalledWith({ type: types.INCREMENT_COUNTER });
-    expect.restoreSpies();
+      actions.incrementIfOdd()(dispatch, getState);
+
+      expect(dispatch).toHaveBeenCalledWith({ type: types.INCREMENT_COUNTER });
+      expect.restoreSpies();
+    });
+
+    it('should not create increment action if counter is even', () => {
+      const dispatch = expect.createSpy();
+      const getState = () => ({ counter: 2 });
+
+      actions.incrementIfOdd()(dispatch, getState);
+
+      expect(dispatch).toNotHaveBeenCalled();
+      expect.restoreSpies();
+    });
+
   });
 
-  it('incrementIfOdd should not create increment action if counter is even', () => {
-    const dispatch = expect.createSpy();
-    const getState = () => ({ counter: 2 });
+  describe('incrementAsync', () => {
 
-    actions.incrementIfOdd()(dispatch, getState);
+    it('should create increment action with default delay of 1000ms', () => {
+      const clock = lolex.install();
+      const dispatch = expect.createSpy();
 
-    expect(dispatch).toNotHaveBeenCalled();
-    expect.restoreSpies();
-  });
+      actions.incrementAsync()(dispatch);
+      clock.tick(1000);
 
-  it('incrementAsync should create increment action', () => {
-    const clock = lolex.install();
-    const dispatch = expect.createSpy();
+      expect(dispatch).toHaveBeenCalledWith({ type: types.INCREMENT_COUNTER });
 
-    actions.incrementAsync()(dispatch);
-    clock.tick(1000);
+      expect.restoreSpies();
+      clock.uninstall();
+    });
 
-    expect(dispatch).toHaveBeenCalledWith({ type: types.INCREMENT_COUNTER });
+    it('should create increment action with custom delay of 500ms', () => {
+      const clock = lolex.install();
+      const dispatch = expect.createSpy();
 
-    expect.restoreSpies();
-    clock.uninstall();
+      actions.incrementAsync(500)(dispatch);
+      clock.tick(500);
+
+      expect(dispatch).toHaveBeenCalledWith({ type: types.INCREMENT_COUNTER });
+
+      expect.restoreSpies();
+      clock.uninstall();
+    });
+
   });
 
 });
