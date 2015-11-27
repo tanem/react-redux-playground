@@ -54,6 +54,9 @@ $ npm run test:watch
 - [SoundRedux](https://github.com/andrewngu/sound-redux)
 - [React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example)
 - [Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
+- [React Toolbox](https://github.com/react-toolbox/react-toolbox)
+- [Lint Like It's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.8nn5qe9w5)
+- [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.b0adk4ts5)
 
 ## License
 
