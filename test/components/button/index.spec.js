@@ -1,7 +1,7 @@
 import expect from 'expect';
 import React from 'react';
 import ReactTestUtils from 'react-addons-test-utils';
-import Button from '../../src/components/Button';
+import Button from '../../../src/components/button';
 
 describe('button component', () => {
 
