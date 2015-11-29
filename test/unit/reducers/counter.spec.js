@@ -1,7 +1,7 @@
 import expect from 'expect';
 import deepFreeze from 'deep-freeze';
-import counter from '../../src/reducers/counter';
-import * as types from '../../src/constants/ActionTypes';
+import counter from '../../../src/reducers/counter';
+import * as types from '../../../src/constants/ActionTypes';
 
 describe('counter reducer', () => {
 
