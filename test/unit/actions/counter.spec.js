@@ -1,7 +1,8 @@
+
 import expect from 'expect';
 import lolex from 'lolex';
-import * as actions from '../../src/actions/counter';
-import * as types from '../../src/constants/ActionTypes';
+import * as actions from '../../../src/actions/counter';
+import * as types from '../../../src/constants/ActionTypes';
 
 describe('counter actions', () => {
 

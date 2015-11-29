@@ -2,7 +2,7 @@ import expect from 'expect';
 import React from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import createHistory from 'history/lib/createMemoryHistory';
-import configureRoutes from '../../src/routes';
+import configureRoutes from '../../../src/routes';
 
 describe('router', () => {
 
