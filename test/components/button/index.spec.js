@@ -1,7 +1,7 @@
-import expect from 'expect';
+import { expect } from 'chai';
 import React from 'react';
 import ReactTestUtils from 'react-addons-test-utils';
-import Button from '../../../../src/components/button';
+import Button from '../../../src/components/button';
 
 describe('button component', () => {
 
@@ -12,8 +12,8 @@ describe('button component', () => {
 
     const result = shallowRenderer.getRenderOutput();
 
-    expect(result.props.onClick).toBe(clickHandler);
-    expect(result.props.children).toBe('+');
+    expect(result.props.onClick).to.equal(clickHandler);
+    expect(result.props.children).to.equal('+');
   });
 
 });

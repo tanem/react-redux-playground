@@ -1,8 +1,8 @@
-import expect from 'expect';
+import { expect } from 'chai';
 import React from 'react';
 import { render, unmountComponentAtNode } from 'react-dom';
 import createHistory from 'history/lib/createMemoryHistory';
-import configureRoutes from '../../../src/routes';
+import configureRoutes from '../../src/routes';
 
 describe('router', () => {
 
@@ -17,7 +17,11 @@ describe('router', () => {
       configureRoutes(createHistory('/'), App),
       node,
       () => {
-        expect(node.textContent).toEqual('app');
+        const actual = node.textContent;
+        const expected = 'app';
+
+        expect(actual).to.equal(expected);
+        
         done();
       }
     );
