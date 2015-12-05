@@ -31,16 +31,22 @@ For progress and further details regarding the TODOs, keep an eye on the [issues
 
 ## Testing
 
-Single run:
+Single run, specs only:
 
 ```
-$ npm test
+$ npm run test:spec
 ```
 
-Run and watch:
+Run specs and watch:
 
 ```
 $ npm run test:watch
+```
+
+Generate coverage reports:
+
+```
+$ npm run test:cov
 ```
 
 ## Links
