@@ -1,6 +1,7 @@
 # react-redux-playground
 
 [![build status](https://img.shields.io/travis/tanem/react-redux-playground/master.svg?style=flat-square)](https://travis-ci.org/tanem/react-redux-playground)
+[![coverage status](https://img.shields.io/coveralls/tanem/react-redux-playground.svg?style=flat-square)](https://coveralls.io/github/tanem/react-redux-playground)
 
 _Work in progress_
 
