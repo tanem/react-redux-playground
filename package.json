@@ -7,9 +7,9 @@
     "lint": "eslint src test",
     "start": "node server.js",
     "test": "npm run test:coveralls",
-    "test:spec": "mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
+    "test:spec": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
     "test:watch": "npm run test:spec -- --watch",
-    "test:cov": "npm run clean:cov && babel-node node_modules/isparta/bin/isparta cover --include-all-sources --root src --report html --report lcov node_modules/mocha/bin/_mocha -- --recursive --require ./test/setup.js",
+    "test:cov": "npm run clean:cov && NODE_ENV=test babel-node node_modules/isparta/bin/isparta cover --include-all-sources --root src --report html --report lcov node_modules/mocha/bin/_mocha -- --recursive --require ./test/setup.js",
     "test:coveralls": "npm run test:cov && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
