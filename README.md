@@ -15,9 +15,10 @@ The app is based on Redux's [counter example](https://github.com/rackt/redux/tre
 - Hot reloading React classes via [react-transform-hmr](https://github.com/gaearon/react-transform-hmr)
 - Live editing time travel via [Redux DevTools](https://github.com/gaearon/redux-devtools)
 - Routing via [redux-simple-router](https://github.com/jlongster/redux-simple-router)
+- Unit testing via [mocha](https://github.com/mochajs/mocha), [chai](https://github.com/chaijs/chai), and [sinon](https://github.com/sinonjs/sinon)
+- Code coverage reporting via [isparta](https://github.com/douglasduteil/isparta)
 - _TODO_ Auth flow
 - _TODO_ Async API calls
-- _TODO_ Unit testing
 - _TODO_ CSS modules
 
 For progress and further details regarding the TODOs, keep an eye on the [issues](https://github.com/tanem/react-redux-playground/issues).
