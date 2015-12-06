@@ -4,13 +4,13 @@ import { connect } from 'react-redux';
 import * as CounterActions from '../actions/counter';
 import Button from '../components/button';
 
-class App extends Component {
+export class App extends Component {
   render() {
     const {
       increment,
+      decrement,
       incrementIfOdd,
       incrementAsync,
-      decrement,
       counter
     } = this.props;
     return (
