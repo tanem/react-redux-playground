@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import lolex from 'lolex';
+import sinon from 'sinon';
 import * as actions from '../../src/actions/counter';
 import * as types from '../../src/constants/ActionTypes';
 import mockStore from '../fixtures/mockStore';
@@ -44,7 +44,7 @@ describe('counter actions', () => {
   });
 
   it('incrementAsync should create increment action with default delay of 1000ms', () => {
-    const clock = lolex.install();
+    const clock = sinon.useFakeTimers();
     const store = mockStore({ counter: 0 });
     
     store.dispatch(actions.incrementAsync());
@@ -59,7 +59,7 @@ describe('counter actions', () => {
   });
 
   it('incrementAsync should create increment action with custom delay of 500ms', () => {
-    const clock = lolex.install();
+    const clock = sinon.useFakeTimers(); 
     const store = mockStore({ counter: 0 });
     
     store.dispatch(actions.incrementAsync(500));
