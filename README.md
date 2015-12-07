@@ -52,19 +52,35 @@ $ npm run test:cov
 
 ## Links
 
-- [@dan_abramov](https://twitter.com/dan_abramov)
+### People
+
+- [Dan Abramov](https://github.com/gaearon)
+
+### Docs
+
 - [React Docs](https://facebook.github.io/react/)
-- [Dan Abramov - Live React: Hot Reloading with Time Travel](https://www.youtube.com/watch?v=xsSnOQynTHs)
-- [A call for quality articles, examples, and resources](https://github.com/rackt/redux/issues/1014)
 - [Redux GitBook](http://rackt.org/redux/index.html)
-- [A Cartoon Intro To Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.n7j014qyf)
+
+### Talks & Videos
+
+- [Dan Abramov - Live React: Hot Reloading with Time Travel](https://www.youtube.com/watch?v=xsSnOQynTHs)
+- [Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
+
+### Examples & Links
+
+- [Redux examples](https://github.com/rackt/redux/tree/master/examples)
+- [A call for quality articles, examples, and resources](https://github.com/rackt/redux/issues/1014)
 - [Awesome Redux](https://github.com/xgrommx/awesome-redux)
 - [SoundRedux](https://github.com/andrewngu/sound-redux)
 - [React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example)
-- [Getting Started with Redux](https://egghead.io/series/getting-started-with-redux)
 - [React Toolbox](https://github.com/react-toolbox/react-toolbox)
+
+### Articles & Tutorials
+
+- [A Cartoon Intro To Redux](https://code-cartoons.com/a-cartoon-intro-to-redux-3afb775501a6#.n7j014qyf)
 - [Lint Like It's 2015](https://medium.com/@dan_abramov/lint-like-it-s-2015-6987d44c5b48#.8nn5qe9w5)
 - [Smart and Dumb Components](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0#.b0adk4ts5)
+- [Full-Stack Redux Tutorial](http://teropa.info/blog/2015/09/10/full-stack-redux-tutorial.html)
 
 ## License
 
