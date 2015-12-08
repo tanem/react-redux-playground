@@ -1,9 +1,9 @@
 # react-redux-playground
  
- _Work in progress_
-
 [![build status](https://img.shields.io/travis/tanem/react-redux-playground/master.svg?style=flat-square)](https://travis-ci.org/tanem/react-redux-playground)
 [![coverage status](https://img.shields.io/coveralls/tanem/react-redux-playground.svg?style=flat-square)](https://coveralls.io/github/tanem/react-redux-playground)
+
+ _Work in progress_
 
 Messing about with [React](https://github.com/facebook/react) and [Redux](https://github.com/rackt/redux). There's a bunch of useful info out there, but hopefully there are a few bits and pieces others might find helpful here too.
 
