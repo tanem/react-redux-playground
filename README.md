@@ -1,5 +1,5 @@
 # react-redux-playground
- 
+
 [![build status](https://img.shields.io/travis/tanem/react-redux-playground/master.svg?style=flat-square)](https://travis-ci.org/tanem/react-redux-playground)
 [![coverage status](https://img.shields.io/coveralls/tanem/react-redux-playground.svg?style=flat-square)](https://coveralls.io/github/tanem/react-redux-playground)
 
@@ -69,6 +69,9 @@ $ npm run test:cov
 - [SoundRedux](https://github.com/andrewngu/sound-redux)
 - [React Redux Universal Hot Example](https://github.com/erikras/react-redux-universal-hot-example)
 - [React Toolbox](https://github.com/react-toolbox/react-toolbox)
+- [React Hot Boilerplate](https://github.com/gaearon/react-hot-boilerplate)
+- [React Transform Boilerplate](https://github.com/gaearon/react-transform-boilerplate)
+- [React Black Triangle](https://github.com/jamesknelson/react-black-triangle)
 
 ### Articles & Tutorials
 
